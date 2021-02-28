@@ -24,7 +24,7 @@ L.innocents = "Masumlar Takımı"
 L.traitors = "Hainler Takımı"
 
 -- Round status messages
-L.round_minplayers = "Not enough players to start a new round..."
+L.round_minplayers = "Yeni bir tur başlatmak için yeterli oyuncu yok ..."
 L.round_voting = "Vote in progress, delaying new round by {num} seconds..."
 L.round_begintime = "A new round begins in {num} seconds. Prepare yourself."
 L.round_selected = "The Traitors have been selected."
