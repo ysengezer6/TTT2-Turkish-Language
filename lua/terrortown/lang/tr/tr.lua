@@ -5,7 +5,8 @@ local L = LANG.CreateLanguage("tr")
 
 L.__alias = "turkish"
 
-L.lang_name = "Türkçe (Turkish)"
+L.lang_name = "Türkçe (Turkish)" 
+
 
 -- General text used in various places
 L.traitor = "Hain"
