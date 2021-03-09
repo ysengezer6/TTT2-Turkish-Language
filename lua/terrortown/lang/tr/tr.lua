@@ -7,7 +7,6 @@ L.__alias = "turkish"
 
 L.lang_name = "Türkçe (Turkish)" 
 
-
 -- General text used in various places
 L.traitor = "Hain"
 L.detective = "Dedektif"
@@ -159,7 +158,7 @@ L.quick_title = "Hızlı sohbet tuşları"
 L.quick_yes = "Evet."
 L.quick_no = "Hayır."
 L.quick_help = "Yardım edin!"
-L.quick_imwith = "{Player} ile birlikteyim."
+L.quick_imwith = "{player} ile birlikteyim."
 L.quick_see = "{player}'ı görüyorum."
 L.quick_suspect = "{player} şüpheli davranıyor."
 L.quick_traitor = "{player} hain!"
@@ -192,363 +191,363 @@ L.search_disg = "Onlar kimliklerini gizleyebilecek bir cihaz taşıyorlardı."
 L.search_radar = "Onlar bir çeşit tarayıcı taşıyorlardı. Artık tarayıcıları çalışmıyor."
 L.search_c4 = "Bir cepte bir not buldun. {num}. teli kesmenin bombayı güvenli bir şekilde etkisiz hale getireceğini belirtiyor."
 
-L.search_dmg_crush = "Many of their bones are broken. It seems the impact of a heavy object killed them."
-L.search_dmg_bullet = "It is obvious they were shot to death."
-L.search_dmg_fall = "They fell to their death."
-L.search_dmg_boom = "Their wounds and singed clothes indicate an explosion caused their end."
-L.search_dmg_club = "The body is bruised and battered. Clearly they were clubbed to death."
-L.search_dmg_drown = "The body shows the telltale signs of drowning."
-L.search_dmg_stab = "They were stabbed and cut before quickly bleeding to death."
-L.search_dmg_burn = "Smells like roasted terrorist around here..."
-L.search_dmg_tele = "It looks like their DNA was scrambled by tachyon emissions!"
-L.search_dmg_car = "When this terrorist crossed the road, they were run over by a reckless driver."
-L.search_dmg_other = "You cannot find a specific cause of this terrorist's death."
+L.search_dmg_crush = "Kemiklerinin çoğu kırılmış. Görünüşe göre ağır bir nesnenin etkisi onu öldürdü."
+L.search_dmg_bullet = "Vurularak öldürüldüğü açık."
+L.search_dmg_fall = "Düşerek ölmüş."
+L.search_dmg_boom = "Yaraları ve yanmış elbiseleri, ölümünün patlamayla olduğunu gösteriyor."
+L.search_dmg_club = "Ceset zedelenmiş ve hırpalanmış. Açıkça sopayla öldürülmüş."
+L.search_dmg_drown = "Ceset boğulma belirtileri gösteriyor."
+L.search_dmg_stab = "Kanamadan ölmeden önce bıçaklanmış ve kesilmiş."
+L.search_dmg_burn = "Buralar kavrulmuş terörist gibi kokuyor..."
+L.search_dmg_tele = "Görünüşe göre DNA'sı takyon emisyonlarıyla karıştırılmış!"
+L.search_dmg_car = "Bu terörist yolun karşısına geçtiğinde, pervasız bir şoför tarafından ezildi."
+L.search_dmg_other = "Bu teröristin ölümünün belirli bir nedeni bulunamadı"
 
-L.search_weapon = "It appears a {weapon} was used to kill them."
-L.search_head = "The fatal wound was a headshot. No time to scream."
-L.search_time = "They died roughly {time} before you conducted the search."
-L.search_dna = "Retrieve a sample of the killer's DNA with a DNA Scanner. The DNA sample will decay roughly {time} from now."
+L.search_weapon = "Görünüşe göre onu öldürmek için bir {weapon} kullanılmış."
+L.search_head = "Kafasına ölümcül bir vuruş almış. Çığlık atacak zamanı yokmuş."
+L.search_time = "Aramayı yapmadan {time} dakika önce ölmüş."
+L.search_dna = "Katilin DNA'sının bir örneğini bir DNA Tarayıcı ile alın. DNA örneği {time} dakika sonra bozunacak."
 
-L.search_kills1 = "You found a list of kills that confirms the death of {player}."
-L.search_kills2 = "You found a list of kills with these names:"
-L.search_eyes = "Using your detective skills, you identified the last person they saw: {player}. The killer, or a coincidence?"
+L.search_kills1 = "{player}'ın ölümünü doğrulayan bir öldürme listesi buldun."
+L.search_kills2 = "Şu isimlerle bir öldürme listesi buldunuz:"
+L.search_eyes = "Dedektiflik becerilerinizi kullanarak, gördüğü son kişiyi belirlediniz: {player}. Katil mi yoksa tesadüf mü?"
 
 -- Scoreboard
-L.sb_playing = "You are playing on..."
-L.sb_mapchange = "Map changes in {num} rounds or in {time}"
+L.sb_playing = "Oynuyorsun..."
+L.sb_mapchange = "{num} rauntta veya {time} içinde harita değişecek."
 
-L.sb_mia = "Missing In Action"
-L.sb_confirmed = "Confirmed Dead"
+L.sb_mia = "Ortada görünmüyor"
+L.sb_confirmed = "Ölümü doğrulanmış"
 
-L.sb_ping = "Ping"
-L.sb_deaths = "Deaths"
-L.sb_score = "Score"
+L.sb_ping = "Gecikme"
+L.sb_deaths = "Ölüm"
+L.sb_score = "Skor"
 L.sb_karma = "Karma"
 
-L.sb_info_help = "Search this player's body, and you can review the results here."
+L.sb_info_help = "Bu oyuncunun cesedini aradın ve sonuçları buradan inceleyebilirsiniz."
 
-L.sb_tag_friend = "FRIEND"
-L.sb_tag_susp = "SUSPECT"
-L.sb_tag_avoid = "AVOID"
-L.sb_tag_kill = "KILL"
-L.sb_tag_miss = "MISSING"
+L.sb_tag_friend = "ARKADAŞ"
+L.sb_tag_susp = "ŞÜPHELİ"
+L.sb_tag_avoid = "UZAK DUR"
+L.sb_tag_kill = "ÖLÜ"
+L.sb_tag_miss = "KAYIP"
 
 -- Equipment actions, like buying and dropping
-L.buy_no_stock = "This weapon is out of stock: you already bought it this round."
-L.buy_pending = "You already have an order pending, wait until you receive it."
-L.buy_received = "You have received your special equipment."
+L.buy_no_stock = "Bu silah stokta yok: bu tur silahı çoktan satın aldınız."
+L.buy_pending = "Zaten bekleyen bir siparişiniz var, elde edene kadar bekleyin."
+L.buy_received = "Özel teçhizatınızı aldınız."
 
-L.drop_no_room = "You have no room here to drop your weapon!"
+L.drop_no_room = "Burada silahınızı atacak yer yok!"
 
-L.disg_turned_on = "Disguise enabled!"
-L.disg_turned_off = "Disguise disabled."
+L.disg_turned_on = "Kılık değiştirme etkinleştirildi!"
+L.disg_turned_off = "Kılık değiştirme devre dışı."
 
 -- Equipment item descriptions
-L.item_passive = "Passive effect item"
-L.item_active = "Active use item"
-L.item_weapon = "Weapon"
+L.item_passive = "Pasif etki eşyası"
+L.item_active = "Aktif kullanım eşyası"
+L.item_weapon = "Silah"
 
-L.item_armor = "Body Armor"
+L.item_armor = "Vücut Zırhı"
 L.item_armor_desc = [[
-Reduces bullet, fire and explosion damage. Depletes over time.
+Mermi, yangın ve patlama hasarını azaltır.. Zamanla tükenir.
 
-It can be purchased multiple times. After reaching a specific armor value, the armor becomes stronger.]]
+Birden çok kez satın alınabilir. Belirli bir zırh değerine ulaştıktan sonra zırh güçlenir.]]
 
-L.item_radar = "Radar"
+L.item_radar = "Tarayıcı"
 L.item_radar_desc = [[
-Allows you to scan for life signs.
+Yaşam belirtilerini taramanıza izin verir.
 
-Starts automatic scans as soon as you buy it. Configure it in Radar tab of this menu.]]
+Satın alır almaz otomatik taramaları başlatır. Bu menünün tarayıcı sekmesinde yapılandırın.]]
 
-L.item_disg = "Disguiser"
+L.item_disg = "Kılık Değiştirici"
 L.item_disg_desc = [[
-Hides your ID info while on. Also avoids being the person last seen by a victim.
+Kimlik bilgilerinizi gizler. Ayrıca bir kurban tarafından en son görülen kişi olmaktan da kurtarır.
 
-Toggle in the Disguise tab of this menu or press Numpad Enter.]]
+Bu menünün Disguise sekmesine geçin veya Numpad Enter tuşuna basın.]]
 
 -- C4
-L.c4_hint = "Press {usekey} to arm or disarm."
-L.c4_disarm_warn = "A C4 explosive you planted has been disarmed."
-L.c4_armed = "You have successfully armed the bomb."
-L.c4_disarmed = "You have successfully disarmed the bomb."
-L.c4_no_room = "You cannot carry this C4."
+L.c4_hint = "Etkinleştirmek veya devre dışı bırakmak için {usekey} tuşuna basın."
+L.c4_disarm_warn = "Yerleştirdiğiniz bir C4 patlayıcı etkisiz hale getirildi."
+L.c4_armed = "Bombayı başarıyla silahlandırdınız."
+L.c4_disarmed = "Bombayı başarıyla etkisiz hale getirdin."
+L.c4_no_room = "Bu C4'ü taşıyamazsınız."
 
-L.c4_desc = "Powerful timed explosive."
+L.c4_desc = "Zamanlanmış güçlü bir patlayıcı."
 
-L.c4_arm = "Arm C4"
-L.c4_arm_timer = "Timer"
-L.c4_arm_seconds = "Seconds until detonation:"
-L.c4_arm_attempts = "In disarm attempts, {num} of the 6 wires will cause instant detonation when cut."
+L.c4_arm = "C4'ü etkinleştir"
+L.c4_arm_timer = "Zamanlayıcı"
+L.c4_arm_seconds = "Patlamaya kalan saniye:"
+L.c4_arm_attempts = "Devre dışı bırakma girişimlerinde, 6 telden {num} tanesi kesildiğinde anında patlamaya neden olur."
 
-L.c4_remove_title = "Removal"
-L.c4_remove_pickup = "Pick up C4"
-L.c4_remove_destroy1 = "Destroy C4"
-L.c4_remove_destroy2 = "Confirm: destroy"
+L.c4_remove_title = "Kaldırma"
+L.c4_remove_pickup = "C4'ü al"
+L.c4_remove_destroy1 = "C4'ü yok et"
+L.c4_remove_destroy2 = "Onayla: yok et"
 
-L.c4_disarm = "Disarm C4"
-L.c4_disarm_cut = "Click to cut wire {num}"
+L.c4_disarm = "C4'ü devre dışı bırak"
+L.c4_disarm_cut = "{num}. kabloyu kesmek için tıklayın"
 
-L.c4_disarm_owned = "Cut a wire to disarm the bomb. It's your bomb, so every wire will disarm it."
-L.c4_disarm_other = "Cut a safe wire to disarm the bomb. It will explode if you get it wrong!"
+L.c4_disarm_owned = "Bombayı etkisiz hale getirmek için bir tel kesin. Bu senin bomban, yani her kablo onu etkisiz hale getirecek."
+L.c4_disarm_other = "Bombayı etkisiz hale getirmek için güvenli bir kablo kesin. Yanlış kabloyu kesersen patlayacak!"
 
-L.c4_status_armed = "ARMED"
-L.c4_status_disarmed = "DISARMED"
+L.c4_status_armed = "Etkin"
+L.c4_status_disarmed = "Devre Dışı"
 
 -- Visualizer
-L.vis_name = "Visualizer"
-L.vis_hint = "Press {usekey} to pick up (Detectives only)."
+L.vis_name = "Görselleştirici"
+L.vis_hint = "Almak için {usekey} tuşuna basın (Yalnızca Dedektifler İçin)."
 
 L.vis_desc = [[
-Crime scene visualization device.
+Suç mahalli görselleştirme cihazı..
 
-Analyzes a corpse to show how the victim was killed, but only if they died of gunshot wounds.]]
+Kurbanın nasıl öldürüldüğünü göstermek için bir cesedi analiz eder, ancak sadece kurşun yaralarından ölmüşse.]]
 
 -- Decoy
-L.decoy_name = "Decoy"
-L.decoy_no_room = "You cannot carry this decoy."
-L.decoy_broken = "Your Decoy has been destroyed!"
+L.decoy_name = "Saptırıcı"
+L.decoy_no_room = "Bu saptırıcıyı taşıyamazsınız."
+L.decoy_broken = "Saptırıcın yok edildi!"
 
-L.decoy_short_desc = "This decoy shows a fake radar sign visible for other teams"
-L.decoy_pickup_wrong_team = "You can't pick it up as it belongs to a different team"
+L.decoy_short_desc = "Bu saptırıcı, diğer takımlar tarafından görülebilen sahte bir radar işareti gösterir"
+L.decoy_pickup_wrong_team = "Bu nesne farklı bir takıma ait olduğu için alamazsınız"
 
 L.decoy_desc = [[
-Shows a fake radar sign to other teams, and makes the DNA scanner show the location of the Decoy if someone scans for your DNA.]]
+Diğer takımlara sahte bir radar işareti gösterir ve birisi DNA'nızı taradığında DNA tarayıcısının saptırıcının yerini göstermesini sağlar.]]
 
 -- Defuser
-L.defuser_name = "Defuser"
-L.defuser_help = "{primaryfire} defuses targeted C4."
+L.defuser_name = "Bomba çözücü"
+L.defuser_help = "{primaryfire}, hedeflenen C4'ü etkisiz hale getirir."
 
 L.defuser_desc = [[
-Instantly defuse a C4 explosive.
+Bir C4 patlayıcısını anında etkisiz hale getirir..
 
-Unlimited uses. C4 will be easier to notice if you carry this.]]
+Sınırsız kullanım hakkı vardır. Bunu taşırsan C4'ü daha kolay fark edersin.]]
 
 -- Flare gun
-L.flare_name = "Flare gun"
+L.flare_name = "İşaret Fişeği Tabancası"
 
 L.flare_desc = [[
-Can be used to burn corpses so that they are never found. Limited ammo.
+Cesetleri yok edip yakmak için kullanılabilir. Sınırlı cephanesi vardır.
 
-Burning a corpse makes a distinct sound.]]
+Bir cesedi yakmak belirgin bir ses çıkarır.]]
 
 -- Health station
-L.hstation_name = "Health Station"
+L.hstation_name = "Sağlık İstasyonu"
 
-L.hstation_broken = "Your Health Station has been destroyed!"
-L.hstation_help = "{primaryfire} places the Health Station."
+L.hstation_broken = "Sağlık İstasyonunuz yok edildi!"
+L.hstation_help = "{primaryfire}, Sağlık İstasyonunu yerleştirir."
 
 L.hstation_desc = [[
-Allows people to heal when placed.
+Yerleştirildiğinde insanların iyileşmesini sağlar.
 
-Slow recharge. Anyone can use it, and it can be damaged. Can be checked for DNA samples of its users.]]
+Yavaş şarj olur. Herkes kullanabilir ve zarar verebilir. Kullanan kişilerin DNA örnekleri kontrol edilebilir.]]
 
 -- Knife
-L.knife_name = "Knife"
-L.knife_thrown = "Thrown knife"
+L.knife_name = "Bıçak"
+L.knife_thrown = "Fırlatılan bıçak"
 
 L.knife_desc = [[
-Kills wounded targets instantly and silently, but only has a single use.
+Yaralı hedefleri anında ve sessizce öldürür, ancak tek kullanımlıktır..
 
-Can be thrown using alternate fire.]]
+Sağ tık kullanılarak fırlatılabilir.]]
 
 -- Poltergeist
 L.polter_desc = [[
-Plants thumpers on objects to shove them around violently.
+Nesnelerin üstüne bir aygıt yerleştirerek etrafta şiddetle savrulmasını sağlar.
 
-The energy bursts damage people in close proximity.]]
+Enerji patlamaları yakındaki insanlara zarar verir.]]
 
 -- Radio
-L.radio_broken = "Your Radio has been destroyed!"
-L.radio_help_pri = "{primaryfire} places the Radio."
+L.radio_broken = "Radyonuz yok edildi!"
+L.radio_help_pri = "{primaryfire} radyoyu yerleştirir."
 
 L.radio_desc = [[
-Plays sounds to distract or deceive.
+Dikkat dağıtmak veya kandırmak için sesler çalar..
 
-Place the radio somewhere, and then play sounds on it using the Radio tab in this menu.]]
+Radyoyu bir yere yerleştirin ve ardından bu menüdeki radyo sekmesini kullanarak üzerinde ses çalın.]]
 
 -- Silenced pistol
-L.sipistol_name = "Silenced Pistol"
+L.sipistol_name = "Susturuculu Tabanca"
 
 L.sipistol_desc = [[
-Low-noise handgun, uses normal pistol ammo.
+Düşük gürültülü tabanca, normal tabanca cephanesi kullanır.
 
-Victims will not scream when killed.]]
+Kurbanlar öldürüldüklerinde çığlık atmayacaklar.]]
 
 -- Newton launcher
-L.newton_name = "Newton launcher"
+L.newton_name = "Newton Fırlatıcı"
 
 L.newton_desc = [[
-Push people from a safe distance.
+İnsanları güvenli bir mesafeden iter.
 
-Infinite ammo, but slow to fire.]]
+Sonsuz cephanesi var, ancak yavaş ateş.]]
 
 -- Binoculars
-L.binoc_name = "Binoculars"
+L.binoc_name = "Dürbün"
 
 L.binoc_desc = [[
-Zoom in on corpses and identify them from a long distance away.
+Cesetleri yakınlaştırın ve onları uzun bir mesafeden tanımlayın.
 
-Unlimited uses, but identification takes a few seconds.]]
+Sınırsız kullanım hakkı var, ancak tanımlama birkaç saniye sürer.]]
 
 -- UMP
 L.ump_desc = [[
-Experimental SMG that disorients targets.
+Hedeflerin yönünü değiştiren deneysel bir Makineli tabanca.
 
-Uses standard SMG ammo.]]
+Standart Makineli tabanca cephanesini kullanır.]]
 
 -- DNA scanner
-L.dna_name = "DNA scanner"
-L.dna_notfound = "No DNA sample found on target."
-L.dna_limit = "Storage limit reached. Remove old samples to add new ones."
-L.dna_decayed = "DNA sample of the killer has decayed."
-L.dna_killer = "Collected a sample of the killer's DNA from the corpse!"
-L.dna_duplicate = "Match! You already have this DNA sample in your scanner."
-L.dna_no_killer = "The DNA could not be retrieved (killer disconnected?)."
-L.dna_armed = "This bomb is live! Disarm it first!"
-L.dna_object = "Collected a sample of the last owner from the object."
-L.dna_gone = "DNA not detected in area."
+L.dna_name = "DNA tarayıcı"
+L.dna_notfound = "Hedefte DNA örneği bulunamadı."
+L.dna_limit = "Depolama sınırına ulaşıldı. Yenilerini eklemek için eski örnekleri çıkarın."
+L.dna_decayed = "Katilin DNA örneği çürümüş."
+L.dna_killer = "Cesetten katilin DNA'sından bir örnek aldım!"
+L.dna_duplicate = "Eşleşme! Tarayıcında bu DNA örneğine zaten sahipsiniz."
+L.dna_no_killer = "DNA alınamadı (katilin bağlantısı kesildi mi?)."
+L.dna_armed = "Bu bomba aktif! Önce etkisiz hale getirin!"
+L.dna_object = "Nesneden son sahibinin bir örneğini topladın."
+L.dna_gone = "Bölgede DNA tespit edilmedi."
 
 L.dna_desc = [[
-Collect DNA samples from things and use them to find the DNA's owner.
+Eşyalardan DNA örnekleri toplayın ve bunları DNA'nın sahibini bulmak için kullanın.
 
-Use on fresh corpses to get the killer's DNA and track them down.]]
+Katilin DNA'sını almak ve izini sürmek için taze cesetler üzerinde kullanın.]]
 
 -- Magneto stick
-L.magnet_name = "Magneto-stick"
-L.magnet_help = "{primaryfire} to attach body to surface."
+L.magnet_name = "Manyetik Çubuk"
+L.magnet_help = "Cesedi yüzeye bağlamak için {primaryfire}."
 
 -- Grenades and misc
-L.grenade_smoke = "Smoke grenade"
-L.grenade_fire = "Incendiary grenade"
+L.grenade_smoke = "Sis bombası"
+L.grenade_fire = "Yangın bombası"
 
-L.unarmed_name = "Holstered"
-L.crowbar_name = "Crowbar"
-L.pistol_name = "Pistol"
-L.rifle_name = "Rifle"
-L.shotgun_name = "Shotgun"
+L.unarmed_name = "Silahsız"
+L.crowbar_name = "Levye"
+L.pistol_name = "Tabanca"
+L.rifle_name = "Tüfek"
+L.shotgun_name = "Pompalı tüfek"
 
 -- Teleporter
-L.tele_name = "Teleporter"
-L.tele_failed = "Teleport failed."
-L.tele_marked = "Teleport location marked."
+L.tele_name = "Işınlayıcı"
+L.tele_failed = "Işınlanma başarısız oldu."
+L.tele_marked = "Işınlanma konumu işaretlendi."
 
-L.tele_no_ground = "Cannot teleport unless standing on solid ground!"
-L.tele_no_crouch = "Cannot teleport while crouched!"
-L.tele_no_mark = "No location marked. Mark a destination before teleporting."
+L.tele_no_ground = "Sağlam zeminde durmadıkça ışınlanılamaz!"
+L.tele_no_crouch = "Çömelmişken ışınlanılamaz!"
+L.tele_no_mark = "Konum işaretlenmedi. Işınlamadan önce bir konumu işaretleyin."
 
-L.tele_no_mark_ground = "Cannot mark a teleport location unless standing on solid ground!"
-L.tele_no_mark_crouch = "Cannot mark a teleport location while crouched!"
+L.tele_no_mark_ground = "Sağlam zeminde durmadıkça bir ışınlanma konumu işaretlenemez!"
+L.tele_no_mark_crouch = "Çömelmiş haldeyken ışınlanma konumu işaretlenemez!"
 
-L.tele_help_pri = "{primaryfire} teleports to marked location."
-L.tele_help_sec = "{secondaryfire} marks current location."
+L.tele_help_pri = "{primaryfire} işaretli konuma ışınlanır."
+L.tele_help_sec = "{secondaryfire} mevcut konumu işaretler."
 
 L.tele_desc = [[
-Teleport to a previously marked spot.
+Önceden işaretlenmiş bir noktaya ışınlanın.
 
-Teleporting makes noise, and the number of uses is limited.]]
+Işınlanma gürültü yapar ve kullanım sayısı sınırlıdır.]]
 
 -- Ammo names, shown when picked up
-L.ammo_pistol = "9mm ammo"
+L.ammo_pistol = "9mm cephane"
 
-L.ammo_smg1 = "SMG ammo"
-L.ammo_buckshot = "Shotgun ammo"
-L.ammo_357 = "Rifle ammo"
-L.ammo_alyxgun = "Deagle ammo"
-L.ammo_ar2altfire = "Flare ammo"
-L.ammo_gravity = "Poltergeist ammo"
+L.ammo_smg1 = "Makineli tabanca cephanesi"
+L.ammo_buckshot = "Pompalı cephanesi"
+L.ammo_357 = "Tüfek cephanesi"
+L.ammo_alyxgun = "Deagle cephanesi"
+L.ammo_ar2altfire = "İşaret fişeği"
+L.ammo_gravity = "Poltergeist cephanesi"
 
 -- Round status
-L.round_wait = "Waiting"
-L.round_prep = "Preparing"
-L.round_active = "In progress"
-L.round_post = "Round over"
+L.round_wait = "Bekleniyor"
+L.round_prep = "Hazırlanıyor"
+L.round_active = "Devam ediyor"
+L.round_post = "Tur bitti"
 
 -- Health, ammo and time area
-L.overtime = "OVERTIME"
-L.hastemode = "HASTE MODE"
+L.overtime = "Zaman aşımı"
+L.hastemode = "Hız modu"
 
 -- TargetID health status
-L.hp_healthy = "Healthy"
-L.hp_hurt = "Hurt"
-L.hp_wounded = "Wounded"
-L.hp_badwnd = "Badly Wounded"
-L.hp_death = "Near Death"
+L.hp_healthy = "Sağlıklı"
+L.hp_hurt = "İncinmiş"
+L.hp_wounded = "Yaralı"
+L.hp_badwnd = "Ağır yaralı"
+L.hp_death = "Ölmek üzere"
 
 -- TargetID karma status
-L.karma_max = "Reputable"
-L.karma_high = "Crude"
-L.karma_med = "Trigger-happy"
-L.karma_low = "Dangerous"
-L.karma_min = "Liability"
+L.karma_max = "İtibarlı"
+L.karma_high = "Kaba"
+L.karma_med = "Sorumsuz"
+L.karma_low = "Tehlikeli"
+L.karma_min = "Baş belası"
 
 -- TargetID misc
-L.corpse = "Corpse"
-L.corpse_hint = "Press [{usekey}] to search. [{walkkey} + {usekey}] to search covertly."
+L.corpse = "Ceset"
+L.corpse_hint = "Aramak için [{usekey}] tuşuna basın. Gizli arama yapmak için [{walkkey} + {usekey}]."
 
-L.target_disg = "(disguised)"
-L.target_unid = "Unidentified body"
-L.target_unknown = "A Terrorist"
+L.target_disg = "(kılık değiştirmiş)"
+L.target_unid = "Tanımlanmamış ceset"
+L.target_unknown = "Bir terörist"
 
-L.target_credits = "Search to receive unspent credits"
+L.target_credits = "Harcanmamış kredileri almak için arama yapın"
 
 -- HUD buttons with hand icons that only some roles can see and use
-L.tbut_single = "Single use"
-L.tbut_reuse = "Reusable"
-L.tbut_retime = "Reusable after {num} sec"
-L.tbut_help = "Press [{usekey}] to activate"
+L.tbut_single = "Tek kullanımlık"
+L.tbut_reuse = "Yeniden kullanılabilir"
+L.tbut_retime = "{num} saniye sonra yeniden kullanılabilir"
+L.tbut_help = "Etkinleştirmek için [{usekey}] tuşuna basın"
 
 -- Spectator muting of living/dead
-L.mute_living = "Living players muted"
-L.mute_specs = "Spectators muted"
-L.mute_all = "All muted"
-L.mute_off = "None muted"
+L.mute_living = "Yaşayan oyuncular susturuldu"
+L.mute_specs = "Seyirciler susturuldu"
+L.mute_all = "Herkes susturuldu"
+L.mute_off = "Kimse susturulmadı"
 
 -- Spectators and prop possession
-L.punch_title = "PUNCH-O-METER"
-L.punch_help = "Move keys or jump: punch object. Crouch: leave object."
-L.punch_bonus = "Your bad score lowered your punch-o-meter limit by {num}"
-L.punch_malus = "Your good score increased your punch-o-meter limit by {num}!"
+L.punch_title = "Yumruk-metre"
+L.punch_help = "Hareket ederek ve zıplayarak nesneyi yumruklayın. Eğilerek nesneden çıkın."
+L.punch_bonus = "Kötü puanınız, yumruk-metre sınırınızı {num} düşürdü"
+L.punch_malus = "İyi puanınız, yumruk-metre sınırınızı {num} artırdı!"
 
 -- Info popups shown when the round starts
 L.info_popup_innocent = [[
-You are an innocent Terrorist! But there are traitors around...
-Who can you trust, and who is out to fill you with bullets?
+Sen masum bir teröristsin! Ama etrafta hainler var ...
+Kime güvenebilirsin ve kim seni mermilerle dolduracak?
 
-Watch your back and work with your comrades to get out of this alive!]]
+Arkanı kolla ve yoldaşlarınla bu durumdan canlı kurtulmak için çalış!]]
 
 L.info_popup_detective = [[
-You are a Detective! Terrorist HQ has given you special resources to find the traitors.
-Use them to help the innocent survive, but be careful:
-the traitors will be looking to take you down first!
+Sen bir dedektifsin! Terörist karargahı, hainleri bulmanız için size özel ekipmanlar verdi.
+Masumların hayatta kalmasına yardımcı olmak için bu ekipmanları kullanın, ancak dikkatli olun.
+Hainler önce sizi öldürmek isteyecekler!
 
-Press {menukey} to receive your equipment!]]
+Ekipmanlarınızı almak için {menukey} tuşuna basın!]]
 
 L.info_popup_traitor_alone = [[
-You are a TRAITOR! You have no fellow traitors this round.
+Sen bir hainsin! Bu turda hain yoldaşınız yok.
 
-Kill all others to win!
+Kazanmak için diğerlerini öldür!
 
-Press {menukey} to receive your special equipment!]]
+Özel ekipmanlarınızı almak için {menukey} tuşuna basın!]]
 
 L.info_popup_traitor = [[
-You are a TRAITOR! Work with fellow traitors to kill all others.
-But take care, or your treason may be discovered...
+Sen bir hainsin! Diğerlerini öldürmek için diğer hainlerle birlikte çalışın.
+Ama dikkatli olun, yoksa ihanetiniz keşfedilebilir.
 
-These are your comrades:
+Bunlar yoldaşlarınız:
 {traitorlist}
 
-Press {menukey} to receive your special equipment!]]
+Özel ekipmanlarınızı almak için {menukey} tuşuna basın!]]
 
 -- Various other text
-L.name_kick = "A player was automatically kicked for changing their name during a round."
+L.name_kick = "Bir oyuncu, bir tur sırasında ismini değiştirdiği için otomatik olarak atıldı."
 
 L.idle_popup = [[
-You were idle for {num} seconds and were moved into Spectator-only mode as a result. While you are in this mode, you will not spawn when a new round starts.
+{num} saniye boyunca boşta kaldınız ve sonuç olarak izleyici moduna geçtiniz. Bu moddayken, yeni bir tur başladığında doğmayacaksınız.
 
-You can toggle Spectator-only mode at any time by pressing {helpkey} and unchecking the box in the Settings tab. You can also choose to disable it right now.]]
+İstediğiniz zaman {helpkey} tuşuna basarak ve ayarlar sekmesindeki kutunun işaretini kaldırarak izleyici modunu devre dışı bırakabilirsin. Ayrıca hemen şimdi devre dışı bırakmayı da seçebilirsiniz.]]
 
-L.idle_popup_close = "Do nothing"
-L.idle_popup_off = "Disable Spectator-only mode now"
+L.idle_popup_close = "Hiçbir şey yapma"
+L.idle_popup_off = "İzleyici modunu şimdi devre dışı bırakın"
 
 L.idle_warning = "Warning: you appear to be idle/AFK, and will be made to spectate unless you show activity!"
 
