@@ -1167,130 +1167,130 @@ L.label_crosshair_static_enable = "Statik crosshair'ı etkinleştir"
 L.label_crosshair_dot_enable = "Crosshair'ı etkinleştir"
 L.label_crosshair_lines_enable = "Crosshair çizgilerini etkinleştir"
 L.label_crosshair_scale_enable = "Silaha bağlı silah ölçeğini etkinleştir"
-L.label_crosshair_ironsight_low_enabled = "Lower weapon when using ironsights"
-L.label_damage_indicator_enable = "Enable damage indicator"
-L.label_damage_indicator_mode = "Select damage indicator theme"
-L.label_damage_indicator_duration = "Fade time after getting hit (in seconds)"
-L.label_damage_indicator_maxdamage = "Damage needed for the maximum opacity"
-L.label_damage_indicator_maxalpha = "Maximum opacity"
-L.label_performance_halo_enable = "Draw an outline around some entities while looking at them"
-L.label_performance_spec_outline_enable = "Enable controlled objects' outlines"
-L.label_performance_ohicon_enable = "Enable role icons over players' heads"
-L.label_interface_tips_enable = "Show gameplay tips at the bottom of the screen while spectating"
-L.label_interface_popup = "Start of round info popup duration"
-L.label_interface_fastsw_menu = "Enable menu with fast weapon switch"
-L.label_inferface_wswitch_hide_enable = "Enable weapon switch menu auto-closing"
-L.label_inferface_scues_enable = "Play sound cue when a round begins or ends"
-L.label_gameplay_specmode = "Spectate-only mode (always stay spectator)"
-L.label_gameplay_fastsw = "Fast weapon switch"
-L.label_gameplay_hold_aim = "Enable hold to aim"
-L.label_gameplay_mute = "Mute living players when dead"
-L.label_gameplay_dtsprint_enable = "Enable double tap sprinting"
-L.label_gameplay_dtsprint_anykey = "Continue double tap sprinting until you stop moving"
-L.label_hud_default = "Default HUD"
-L.label_hud_force = "Forced HUD"
+L.label_crosshair_ironsight_low_enabled = "Demir nişangah kullanırken silahı indirin"
+L.label_damage_indicator_enable = "Hasar göstergesini etkinleştir"
+L.label_damage_indicator_mode = "Hasar göstergesi temasını seçin"
+L.label_damage_indicator_duration = "Vurulduktan sonra kaybolma süresi (saniye cinsinden)"
+L.label_damage_indicator_maxdamage = "Maksimum opaklık için gereken hasar"
+L.label_damage_indicator_maxalpha = "Maksimum opaklık"
+L.label_performance_halo_enable = "Bazı varlıklara bakarken etrafına bir taslak çizin"
+L.label_performance_spec_outline_enable = "Kontrollü nesnelerin ana hatlarını etkinleştirin"
+L.label_performance_ohicon_enable = "Oyuncuların kafalarının üzerinde rol simgelerini etkinleştirin"
+L.label_interface_tips_enable = "İzlerken ekranın altında oyunla ilgili ipuçlarını gösterin"
+L.label_interface_popup = "Tur başlangıcı bilgi pop-up süresi"
+L.label_interface_fastsw_menu = "Hızlı silah değiştirme ile menüyü etkinleştirin"
+L.label_inferface_wswitch_hide_enable = "Silah değiştirme menüsünün otomatik kapanmasını etkinleştir"
+L.label_inferface_scues_enable = "Bir tur başladığında veya bittiğinde sesli ipucu çal"
+L.label_gameplay_specmode = "Yalnızca izleme modu (her zaman izleyici olarak kalın)"
+L.label_gameplay_fastsw = "Hızlı silah değişimi"
+L.label_gameplay_hold_aim = "Nişan almak için basılı tutmayı etkinleştirin"
+L.label_gameplay_mute = "Öldüğünde yaşayan oyuncuları sessize al"
+L.label_gameplay_dtsprint_enable = "Çift basarak koşmayı etkinleştir"
+L.label_gameplay_dtsprint_anykey = "Hareket etmeyi bırakana kadar çift basarak koşmaya devam edin"
+L.label_hud_default = "Varsayılan HUD"
+L.label_hud_force = "Zorunlu HUD"
 
-L.label_bind_weaponswitch = "Pickup Weapon"
-L.label_bind_sprint = "Sprint"
-L.label_bind_voice = "Global Voice Chat"
-L.label_bind_voice_team = "Team Voice Chat"
+L.label_bind_weaponswitch = "Silahı Al"
+L.label_bind_sprint = "Koş"
+L.label_bind_voice = "Küresel Sesli Sohbeti"
+L.label_bind_voice_team = "Takım Sesli Sohbeti"
 
-L.label_hud_basecolor = "Base Color"
+L.label_hud_basecolor = "Ana renk"
 
-L.label_menu_not_populated = "This submenu does not contain any content."
+L.label_menu_not_populated = "Bu alt menü herhangi bir içerik içermemektedir."
 
-L.header_bindings_ttt2 = "TTT2 Bindings"
-L.header_bindings_other = "Other Bindings"
-L.header_language = "Language Settings"
-L.header_global_color = "Select Global Color"
-L.header_hud_select = "Select a HUD"
-L.header_hud_customize = "Customize the HUD"
-L.header_vskin_select = "Select and Customize the VSkin"
-L.header_targetid = "TargetID Settings"
-L.header_shop_settings = "Equipment Shop Settings"
-L.header_shop_layout = "Item List Layout"
-L.header_shop_marker = "Item Marker Settings"
-L.header_crosshair_settings = "Crosshair Settings"
-L.header_damage_indicator = "Damage Indicator Settings"
-L.header_performance_settings = "Performance Settings"
-L.header_interface_settings = "Interface Settings"
-L.header_gameplay_settings = "Gameplay Settings"
-L.header_roleselection = "Select Avoiding Roles"
-L.header_hud_administration = "Select Default and Forced HUDs"
-L.header_hud_enabled = "Enable/Disable HUDs"
+L.header_bindings_ttt2 = "TTT2 Tuşları"
+L.header_bindings_other = "Diğer Tuşlar"
+L.header_language = "Dil Ayarları"
+L.header_global_color = "Genel Renk Seçin"
+L.header_hud_select = "Bir HUD seçin"
+L.header_hud_customize = "HUD özelleştirin"
+L.header_vskin_select = "VSkin'i Seçin ve Özelleştirin"
+L.header_targetid = "TargetID Ayarları"
+L.header_shop_settings = "Ekipman Mağazası Ayarları"
+L.header_shop_layout = "Öğe Listesi Düzeni"
+L.header_shop_marker = "Öğe İşaretleme Ayarları"
+L.header_crosshair_settings = "Crosshair Ayarları"
+L.header_damage_indicator = "Hasar Gösterge Ayarları"
+L.header_performance_settings = "Performans Ayarları"
+L.header_interface_settings = "Arayüz Ayarları"
+L.header_gameplay_settings = "Oyun Ayarları"
+L.header_roleselection = "Gelmesini Engellemek İstediğiniz Roller"
+L.header_hud_administration = "Varsayılan ve Zorunlu Gösterge Panellerini Seçin"
+L.header_hud_enabled = "HUD'ları Etkinleştir / Devre Dışı Bırak"
 
-L.button_menu_back = "Back"
-L.button_none = "None"
-L.button_press_key = "Press a key"
-L.button_save = "Save"
-L.button_reset = "Reset"
-L.button_close = "Close"
-L.button_hud_editor = "HUD Editor"
+L.button_menu_back = "Geri"
+L.button_none = "Hiçbiri"
+L.button_press_key = "Bir tuşa basın"
+L.button_save = "Kayıt Et"
+L.button_reset = "Sıfırla"
+L.button_close = "Kapat"
+L.button_hud_editor = "HUD Düzenleyicisi"
 
 -- 2020-04-20
-L.item_speedrun = "Speedrun"
-L.item_speedrun_desc = [[Makes you 50% faster!]]
-L.item_no_explosion_damage = "No Explosion Damage"
-L.item_no_explosion_damage_desc = [[Makes you immune to explosion damage.]]
-L.item_no_fall_damage = "No Fall Damage"
-L.item_no_fall_damage_desc = [[Makes you immune to fall damage.]]
-L.item_no_fire_damage = "No Fire Damage"
-L.item_no_fire_damage_desc = [[Makes you immune to fire damage.]]
-L.item_no_hazard_damage = "No Hazard Damage"
-L.item_no_hazard_damage_desc = [[Makes you immune to hazard damage such as poison, radiation and acid.]]
-L.item_no_energy_damage = "No Energy Damage"
-L.item_no_energy_damage_desc = [[Makes you immune to energy damage such as lasers, plasma and lightning.]]
-L.item_no_prop_damage = "No Prop Damage"
-L.item_no_prop_damage_desc = [[Makes you immune to prop damage.]]
-L.item_no_drown_damage = "No Drowning Damage"
-L.item_no_drown_damage_desc = [[Makes you immune to drowning damage.]]
+L.item_speedrun = "Hızlı koşu"
+L.item_speedrun_desc = [[Sizi %50 daha hızlı yapar!]]
+L.item_no_explosion_damage = "Patlama Hasarı Yok"
+L.item_no_explosion_damage_desc = [[Size patlama hasarına karşı bağışıklık kazandırır.]]
+L.item_no_fall_damage = "Düşme hasarı yok"
+L.item_no_fall_damage_desc = [[Düşme hasarına karşı bağışıklık kazandırır.]]
+L.item_no_fire_damage = "Yanma Hasarı Yok"
+L.item_no_fire_damage_desc = [[Size yanma hasarına karşı bağışıklık kazandırır.]]
+L.item_no_hazard_damage = "Zehir Hasarı Yok"
+L.item_no_hazard_damage_desc = [[Zehir, radyasyon ve asit gibi tehlikeli hasarlara karşı bağışıklık kazandırır.]]
+L.item_no_energy_damage = "Enerji Hasarı Yok"
+L.item_no_energy_damage_desc = [[Lazer, plazma ve şimşek gibi enerji hasarlarına karşı bağışıklık kazandırır.]]
+L.item_no_prop_damage = "Nesne Hasarı Yok"
+L.item_no_prop_damage_desc = [[Size nesne hasarına karşı bağışıklık kazandırır.]]
+L.item_no_drown_damage = "Boğulma Hasarı Yok"
+L.item_no_drown_damage_desc = [[Size boğulma hasarına karşı bağışıklık kazandırır.]]
 
 -- 2020-04-21
-L.dna_tid_possible = "Scan possible."
-L.dna_tid_impossible = "No scan possible."
-L.dna_screen_ready = "No DNA"
-L.dna_screen_match = "Match"
+L.dna_tid_possible = "Tarama mümkün."
+L.dna_tid_impossible = "Tarama mümkün değil."
+L.dna_screen_ready = "DNA Yok"
+L.dna_screen_match = "Eşleşme"
 
 -- 2020-04-30
-L.message_revival_canceled = "Revival canceled."
-L.message_revival_failed = "Revival failed."
-L.message_revival_failed_missing_body = "You have not been revived because your corpse no longer exists."
-L.hud_revival_title = "Time left until revival:"
-L.hud_revival_time = "{time}s"
+L.message_revival_canceled = "Canlanma iptal edildi."
+L.message_revival_failed = "Canlanma başarısız oldu."
+L.message_revival_failed_missing_body = "Canlandırılamadın çünkü cesedin artık yok."
+L.hud_revival_title = "Canlanmaya kalan süre:"
+L.hud_revival_time = "{time} saniye"
 
 -- 2020-05-03
-L.door_destructible = "This door is destructible ({health}HP)."
+L.door_destructible = "Bu kapı kırılabilir ({health} Can)."
 
 -- 2020-05-28
-L.confirm_detective_only = "Only detectives can confirm bodies."
-L.inspect_detective_only = "Only detectives can search bodies."
-L.corpse_hint_no_inspect = "Only detectives can search this body."
-L.corpse_hint_inspect_only = "Press [{usekey}] to search. Only detectives can confirm the body."
-L.corpse_hint_inspect_only_credits = "Press [{usekey}] to receive credits. Only detectives can search this body."
+L.confirm_detective_only = "Sadece dedektifler cesetleri doğrulayabilir."
+L.inspect_detective_only = "Sadece dedektifler cesetleri arayabilir."
+L.corpse_hint_no_inspect = "Bu cesedi sadece dedektifler arayabilir."
+L.corpse_hint_inspect_only = "Aramak için [{usekey}] tuşuna basın. Sadece dedektifler cesedi doğrulayabilir."
+L.corpse_hint_inspect_only_credits = "Kredi almak için [{usekey}] 'e basın. Bu cesedi sadece dedektifler arayabilir."
 
 -- 2020-06-04
-L.label_bind_disguiser = "Toggle disguiser"
+L.label_bind_disguiser = "Kılık Değiştirmeyi Aç/Kapat"
 
 -- 2020-06-24
-L.dna_help_primary = "Collect a DNA sample"
-L.dna_help_secondary = "Switch the DNA slot"
-L.dna_help_reload = "Delete a sample"
+L.dna_help_primary = "Bir DNA örneği toplayın"
+L.dna_help_secondary = "DNA yuvasını değiştirin"
+L.dna_help_reload = "Bir örneği silin"
 
-L.binoc_help_pri = "Search a body."
-L.binoc_help_sec = "Change zoom level."
+L.binoc_help_pri = "Bir ceset arayın."
+L.binoc_help_sec = "Yakınlaştırma düzeyini değiştirin."
 
-L.vis_help_pri = "Drop the activated device."
+L.vis_help_pri = "Etkinleştirilmiş cihazı bırakın."
 
-L.decoy_help_pri = "Plant the Decoy."
+L.decoy_help_pri = "Yem yerleştirin."
 
 -- 2020-08-07
-L.pickup_error_spec = "You cannot pick this up as a spectator."
-L.pickup_error_owns = "You cannot pick this up because you already have this weapon."
-L.pickup_error_noslot = "You cannot pick this up because you have no free slot available."
+L.pickup_error_spec = "Bunu bir seyirci olarak bunu alamazsınız."
+L.pickup_error_owns = "Bu silaha zaten sahip olduğunuz için bunu alamazsınız."
+L.pickup_error_noslot = "Boş yeriniz olmadığı için bunu alamazsınız."
 
 -- 2020-11-02
-L.lang_server_default = "Server Default"
+L.lang_server_default = "Sunucu Varsayılanı"
 L.help_lang_info = [[
-This translation is {coverage}% complete with the english language taken as a default reference.
+Bu çeviri, varsayılan referans olarak alınan İngilizce diliyle %{coverage} tamamlanmıştır.
 
-Keep in mind that these translations are made by the community. Feel free to contribute if something is missing or incorrect.]]
+Bu çevirilerin topluluk tarafından yapıldığını unutmayın. Bir şey eksik veya yanlışsa katkıda bulunmaktan çekinmeyin.]]
